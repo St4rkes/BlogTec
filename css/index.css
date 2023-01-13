@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(228, 228, 228);
+}
+
+/* Layout Titulo*/
+
+#area-cabecalho{
+    background-color: rgb(223, 208, 1);
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo{
+    padding: 10px;
+}
+
+#area-menu{
+    padding: 10px;
+}
+
+#area-logo > h1{
+    color: rgb(141, 139, 139);
+}
+
+.branco{
+    color: white;
+}
+
+/* Formatacao dos links cabecalho*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: coral;
+    
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+#area-cabecalho a:link, #area-cabecalhoa a:visited{
+    color:rgb(255, 255, 255);
+    padding: 8px 12px;
+
+}
+
+#area-cabecalho a:hover{
+    color: rgb(134, 125, 1);
+    background: white;
+    text-decoration: none;
+}
+
+#area-principal{
+    background: white;
+    width: 920px;
+    margin: 55px auto;
+    
+}
+#area-postagens, #area-lateral{
+    background: aliceblue;
+
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    background-color: rgb(155, 151, 147);
+    text-align: center;
+    
+    
+    
+}
+
+.postagens > img{
+    padding: 20px 0;
+    width: 660px;
+}
+
+.postagens > h2{
+    color: rgb(221, 166, 28);
+    padding: 13px 0;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid white;
+}
+
+.conteudo-lateral{
+    background:  aliceblue;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+.conteudo-lateral h3{
+    background: rgb(221, 166, 28);
+    text-align: left;
+}
+
+.texto-lateral{
+    font-size: 0.8em;
+    margin-bottom: 3px;
+    padding: 8px 0;
+}
+
+#divisao{
+    background: aliceblue ;
+}
+
